@@ -1,0 +1,122 @@
+{
+  "problem": "Sarah has 24 apples. She gives 1/3 of them to Tom, then buys 8 more apples. How many apples does Sarah have now?",
+  "timestamp": "2025-06-25T22:20:35.187237",
+  "solutions": [
+    {
+      "sample_id": 0,
+      "prompt": "\n            Solve this mathematical problem step by step:\n            \n            Problem: Sarah has 24 apples. She gives 1/3 of them to Tom, then buys 8 more apples. How many apples does Sarah have now?\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**  We need to determine the number of apples Sarah has after giving some away and buying more.\n\n**2. Identify what information is given and what needs to be found:**\n\n* **Given:** Sarah starts with 24 apples, gives away 1/3, and buys 8 more.\n* **To find:** The total number of apples Sarah has at the end.\n\n**3. Show all calculations clearly:**\n\n* **Step 1: Find the number of apples Sarah gives to Tom.**\n   1/3 of 24 apples = (1/3) * 24 = 8 apples\n\n* **Step 2: Find the number of apples Sarah has left after giving some to Tom.**\n   24 apples (starting amount) - 8 apples (given to Tom) = 16 apples\n\n* **Step 3: Find the total number of apples Sarah has after buying more.**\n   16 apples (remaining) + 8 apples (bought) = 24 apples\n\n**4. State your final answer clearly:**\n\nSarah has a total of $\\boxed{24}$ apples now.\n",
+      "timestamp": "2025-06-25T22:20:18.423720",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.7,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 1,
+      "prompt": "Think step by step: \n            Solve this mathematical problem step by step:\n            \n            Problem: Sarah has 24 apples. She gives 1/3 of them to Tom, then buys 8 more apples. How many apples does Sarah have now?\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nSarah starts with 24 apples, gives away a fraction of them, and then buys more.  The question asks for her final number of apples.\n\n**2. Identify what information is given and what needs to be found:**\n\n* **Given:** Sarah starts with 24 apples, gives away 1/3, and buys 8 more.\n* **To find:** The total number of apples Sarah has after giving some away and buying more.\n\n**3. Show all calculations clearly:**\n\n* **Step 1: Calculate how many apples Sarah gives to Tom.**\n   Sarah gives away (1/3) * 24 apples = 8 apples\n\n* **Step 2: Calculate how many apples Sarah has left after giving some to Tom.**\n   Sarah has 24 apples - 8 apples = 16 apples\n\n* **Step 3: Calculate the total number of apples Sarah has after buying more.**\n   Sarah has 16 apples + 8 apples = 24 apples\n\n**4. State your final answer clearly:**\n\nSarah has a total of 24 apples now.\n",
+      "timestamp": "2025-06-25T22:20:22.474340",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.8,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 2,
+      "prompt": "Solve this carefully: \n            Solve this mathematical problem step by step:\n            \n            Problem: Sarah has 24 apples. She gives 1/3 of them to Tom, then buys 8 more apples. How many apples does Sarah have now?\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:** We need to determine the number of apples Sarah has after giving some away and buying more.\n\n**2. Identify what information is given and what needs to be found:**\n\n* **Given:** Sarah starts with 24 apples, gives away 1/3, and buys 8 more.\n* **To find:** The total number of apples Sarah has at the end.\n\n**3. Show all calculations clearly:**\n\n* **Step 1: Apples given to Tom:** Sarah gives away (1/3) * 24 apples = 8 apples.\n\n* **Step 2: Apples remaining after giving to Tom:** Sarah has 24 apples - 8 apples = 16 apples left.\n\n* **Step 3: Apples after buying more:** Sarah buys 8 more apples, so she has 16 apples + 8 apples = 24 apples.\n\n**4. State your final answer clearly:**\n\nSarah has a total of $\\boxed{24}$ apples now.\n",
+      "timestamp": "2025-06-25T22:20:26.161184",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.7,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 4,
+      "prompt": "Analyze this problem: \n            Solve this mathematical problem step by step:\n            \n            Problem: Sarah has 24 apples. She gives 1/3 of them to Tom, then buys 8 more apples. How many apples does Sarah have now?\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:** We need to determine the number of apples Sarah has after giving some away and buying more.\n\n**2. Identify what information is given and what needs to be found:**\n\n* **Given:** Sarah starts with 24 apples. She gives away 1/3 of her apples. She buys 8 more apples.\n* **To find:** The total number of apples Sarah has at the end.\n\n**3. Show all calculations clearly:**\n\n* **Step 1: Calculate the number of apples Sarah gives to Tom.**\n   1/3 of 24 apples = (1/3) * 24 = 8 apples\n\n* **Step 2: Calculate the number of apples Sarah has left after giving some to Tom.**\n   24 apples (initial) - 8 apples (given to Tom) = 16 apples\n\n* **Step 3: Calculate the total number of apples Sarah has after buying more.**\n   16 apples (remaining) + 8 apples (bought) = 24 apples\n\n**4. State your final answer clearly:**\n\nSarah has a total of $\\boxed{24}$ apples at the end.\n",
+      "timestamp": "2025-06-25T22:20:35.174461",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.7,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    }
+  ],
+  "consensus": {
+    "consensus_answer": "",
+    "confidence": 0.0,
+    "agreement_ratio": 0.0
+  },
+  "analysis": {
+    "total_samples": 4,
+    "unique_answers": 0,
+    "consensus_strength": 0.0,
+    "average_quality": 0.725,
+    "quality_variance": 0.0018750000000000034,
+    "confidence_distribution": {
+      "avg_certainty_words": 1.0,
+      "avg_uncertainty_words": 0.0,
+      "avg_hedge_words": 0.0,
+      "avg_verification_statements": 0.0
+    },
+    "answer_clusters": {
+      "clusters": {
+        "": 4
+      },
+      "largest_cluster_size": 4,
+      "cluster_count": 1
+    }
+  },
+  "best_answer": {
+    "selected_answer": "clearly:**",
+    "selection_method": "highest_quality",
+    "confidence": 0.8,
+    "consensus_data": {
+      "consensus_answer": "",
+      "confidence": 0.0,
+      "agreement_ratio": 0.0
+    },
+    "best_solution": {
+      "sample_id": 1,
+      "prompt": "Think step by step: \n            Solve this mathematical problem step by step:\n            \n            Problem: Sarah has 24 apples. She gives 1/3 of them to Tom, then buys 8 more apples. How many apples does Sarah have now?\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nSarah starts with 24 apples, gives away a fraction of them, and then buys more.  The question asks for her final number of apples.\n\n**2. Identify what information is given and what needs to be found:**\n\n* **Given:** Sarah starts with 24 apples, gives away 1/3, and buys 8 more.\n* **To find:** The total number of apples Sarah has after giving some away and buying more.\n\n**3. Show all calculations clearly:**\n\n* **Step 1: Calculate how many apples Sarah gives to Tom.**\n   Sarah gives away (1/3) * 24 apples = 8 apples\n\n* **Step 2: Calculate how many apples Sarah has left after giving some to Tom.**\n   Sarah has 24 apples - 8 apples = 16 apples\n\n* **Step 3: Calculate the total number of apples Sarah has after buying more.**\n   Sarah has 16 apples + 8 apples = 24 apples\n\n**4. State your final answer clearly:**\n\nSarah has a total of 24 apples now.\n",
+      "timestamp": "2025-06-25T22:20:22.474340",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.8,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    }
+  },
+  "summary": {
+    "total_samples": 4,
+    "consensus_confidence": 0.0,
+    "selected_answer": "clearly:**",
+    "selection_method": "highest_quality"
+  }
+}

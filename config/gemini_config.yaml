@@ -1,0 +1,33 @@
+gemini:
+  model_name: "gemini-1.5-flash"
+  generation_config:
+    temperature: 0.7
+    top_p: 0.8
+    top_k: 40
+    max_output_tokens: 2048
+    candidate_count: 1
+
+reasoning:
+  max_paths: 5
+  max_consistency_samples: 5
+  path_evaluation_threshold: 0.6
+  confidence_threshold: 0.7
+
+optimization:
+  enabled: true
+  min_problems_for_optimization: 20
+  optimization_frequency: 10
+  max_optimization_iterations: 5
+  improvement_threshold: 0.05
+
+cost_management:
+  max_daily_requests: 1000
+  cost_tracking: true
+  rate_limit_requests_per_minute: 15
+
+logging:
+  level: "INFO"
+  save_responses: true
+  save_reasoning_paths: true
+  log_rotation: true
+  max_log_files: 10 

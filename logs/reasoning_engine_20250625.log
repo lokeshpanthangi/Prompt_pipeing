@@ -1,0 +1,1332 @@
+2025-06-25 22:11:17,607 - core.reasoning_engine - INFO - __init__:52 - GeminiReasoningEngine initialized successfully
+2025-06-25 22:11:17,609 - core.reasoning_engine - INFO - solve_problem:70 - Solving math problem: Sarah has 24 apples. She gives 1/3 of them to Tom, then buys 8 more apples. How many apples does Sar...
+2025-06-25 22:11:17,610 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:11:17,611 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: math
+2025-06-25 22:11:28,549 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 5 valid reasoning paths
+2025-06-25 22:11:28,569 - core.reasoning_engine - INFO - solve_problem:98 - Generated 5 reasoning paths
+2025-06-25 22:11:28,570 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:11:28,571 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:11:46,471 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 5 valid solution samples
+2025-06-25 22:11:46,472 - core.reasoning_engine - INFO - solve_problem:116 - Generated 5 consistency samples
+2025-06-25 22:11:46,501 - core.reasoning_engine - INFO - solve_problem:136 - Problem solved in 28.86s with confidence 0.870
+2025-06-25 22:13:04,275 - core.reasoning_engine - INFO - __init__:52 - GeminiReasoningEngine initialized successfully
+2025-06-25 22:13:04,276 - core.reasoning_engine - INFO - solve_problem:70 - Solving math problem: Sarah has 24 apples. She gives 1/3 of them to Tom, then buys 8 more apples. How many apples does Sar...
+2025-06-25 22:13:04,278 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:13:04,280 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: math
+2025-06-25 22:13:14,538 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 5 valid reasoning paths
+2025-06-25 22:13:14,539 - core.reasoning_engine - INFO - solve_problem:98 - Generated 5 reasoning paths
+2025-06-25 22:13:14,539 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:13:14,540 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:13:32,713 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 5 valid solution samples
+2025-06-25 22:13:32,714 - core.reasoning_engine - INFO - solve_problem:116 - Generated 5 consistency samples
+2025-06-25 22:13:32,741 - core.reasoning_engine - INFO - solve_problem:136 - Problem solved in 28.44s with confidence 0.870
+2025-06-25 22:14:13,628 - core.reasoning_engine - INFO - __init__:52 - GeminiReasoningEngine initialized successfully
+2025-06-25 22:14:13,633 - core.reasoning_engine - INFO - solve_problem:70 - Solving math problem: What is 25% of 120?...
+2025-06-25 22:14:13,633 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:14:13,634 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: math
+2025-06-25 22:14:23,934 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 5 valid reasoning paths
+2025-06-25 22:14:23,934 - core.reasoning_engine - INFO - solve_problem:98 - Generated 5 reasoning paths
+2025-06-25 22:14:23,935 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:14:23,935 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:14:43,014 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 5 valid solution samples
+2025-06-25 22:14:43,015 - core.reasoning_engine - INFO - solve_problem:116 - Generated 5 consistency samples
+2025-06-25 22:14:43,021 - core.reasoning_engine - INFO - solve_problem:136 - Problem solved in 29.38s with confidence 0.840
+2025-06-25 22:14:43,024 - core.reasoning_engine - INFO - solve_problem:70 - Solving logic problem: If all birds can fly, and penguins are birds, then penguins can fly. What's wrong with this reasonin...
+2025-06-25 22:14:43,025 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:14:43,025 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: logic
+2025-06-25 22:14:50,305 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 5 valid reasoning paths
+2025-06-25 22:14:50,306 - core.reasoning_engine - INFO - solve_problem:98 - Generated 5 reasoning paths
+2025-06-25 22:14:50,306 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:14:50,307 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:15:06,773 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-06-25 22:15:06,776 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 4 valid solution samples
+2025-06-25 22:15:06,778 - core.reasoning_engine - INFO - solve_problem:116 - Generated 4 consistency samples
+2025-06-25 22:15:06,813 - core.reasoning_engine - INFO - solve_problem:136 - Problem solved in 23.75s with confidence 0.887
+2025-06-25 22:15:06,819 - core.reasoning_engine - INFO - solve_problem:70 - Solving logic problem: A sequence follows: 3, 9, 27, 81, ... What's the next number?...
+2025-06-25 22:15:06,820 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:15:06,820 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: logic
+2025-06-25 22:15:12,102 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+2025-06-25 22:15:12,104 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+2025-06-25 22:15:12,106 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+2025-06-25 22:15:12,107 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+2025-06-25 22:15:12,108 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-06-25 22:15:12,110 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 0 valid reasoning paths
+2025-06-25 22:15:12,111 - core.reasoning_engine - INFO - solve_problem:98 - Generated 0 reasoning paths
+2025-06-25 22:15:12,113 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:15:12,114 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:15:32,573 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2025-06-25 22:15:32,574 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 15
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 42
+}
+]
+2025-06-25 22:15:32,576 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 3 valid solution samples
+2025-06-25 22:15:32,578 - core.reasoning_engine - INFO - solve_problem:116 - Generated 3 consistency samples
+2025-06-25 22:15:32,585 - core.reasoning_engine - INFO - solve_problem:136 - Problem solved in 25.76s with confidence 0.672
+2025-06-25 22:20:05,381 - core.reasoning_engine - INFO - __init__:52 - GeminiReasoningEngine initialized successfully
+2025-06-25 22:20:05,382 - core.reasoning_engine - INFO - solve_problem:70 - Solving math problem: Sarah has 24 apples. She gives 1/3 of them to Tom, then buys 8 more apples. How many apples does Sar...
+2025-06-25 22:20:05,383 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:20:05,384 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: math
+2025-06-25 22:20:16,124 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 5 valid reasoning paths
+2025-06-25 22:20:16,125 - core.reasoning_engine - INFO - solve_problem:98 - Generated 5 reasoning paths
+2025-06-25 22:20:16,125 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:20:16,126 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:20:35,175 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 32
+}
+]
+2025-06-25 22:20:35,177 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 4 valid solution samples
+2025-06-25 22:20:35,178 - core.reasoning_engine - INFO - solve_problem:116 - Generated 4 consistency samples
+2025-06-25 22:20:35,190 - core.reasoning_engine - INFO - solve_problem:136 - Problem solved in 29.80s with confidence 0.870
+2025-06-25 22:21:29,093 - core.reasoning_engine - INFO - __init__:52 - GeminiReasoningEngine initialized successfully
+2025-06-25 22:21:29,093 - core.reasoning_engine - INFO - solve_problem:70 - Solving math problem: Sarah has 24 apples. She gives 1/3 of them to Tom, then buys 8 more apples. How many apples does Sar...
+2025-06-25 22:21:29,094 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:21:29,094 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: math
+2025-06-25 22:21:35,304 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2025-06-25 22:21:35,305 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-06-25 22:21:35,306 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 26
+}
+]
+2025-06-25 22:21:35,306 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 26
+}
+]
+2025-06-25 22:21:35,307 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2025-06-25 22:21:35,308 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 0 valid reasoning paths
+2025-06-25 22:21:35,309 - core.reasoning_engine - INFO - solve_problem:98 - Generated 0 reasoning paths
+2025-06-25 22:21:35,309 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:21:35,310 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:21:54,125 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+]
+2025-06-25 22:21:54,127 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+2025-06-25 22:21:54,128 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 15
+}
+]
+2025-06-25 22:21:54,129 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 11
+}
+]
+2025-06-25 22:21:54,131 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 7
+}
+]
+2025-06-25 22:21:54,133 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 0 valid solution samples
+2025-06-25 22:21:54,134 - core.reasoning_engine - ERROR - solve_problem:141 - Error solving problem: max() iterable argument is empty
+2025-06-25 22:26:38,483 - core.reasoning_engine - INFO - __init__:52 - GeminiReasoningEngine initialized successfully
+2025-06-25 22:26:38,483 - core.reasoning_engine - INFO - solve_problem:70 - Solving math problem: what is the value of 7 by 3 and the 3 multiplied with 74...
+2025-06-25 22:26:38,483 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:26:38,483 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: math
+2025-06-25 22:26:44,446 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 21
+}
+]
+2025-06-25 22:26:44,446 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-06-25 22:26:44,447 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-06-25 22:26:44,447 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-06-25 22:26:44,448 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 17
+}
+]
+2025-06-25 22:26:44,449 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 0 valid reasoning paths
+2025-06-25 22:26:44,449 - core.reasoning_engine - INFO - solve_problem:98 - Generated 0 reasoning paths
+2025-06-25 22:26:44,449 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:26:44,450 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:26:49,115 - core.reasoning_engine - INFO - __init__:52 - GeminiReasoningEngine initialized successfully
+2025-06-25 22:26:49,116 - core.reasoning_engine - INFO - solve_problem:70 - Solving math problem: What is 15% of 240?...
+2025-06-25 22:26:49,116 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:26:49,116 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: math
+2025-06-25 22:26:55,086 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 11
+}
+]
+2025-06-25 22:26:55,087 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-06-25 22:26:55,089 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-06-25 22:26:55,092 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-06-25 22:26:55,093 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 7
+}
+]
+2025-06-25 22:26:55,094 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 0 valid reasoning paths
+2025-06-25 22:26:55,095 - core.reasoning_engine - INFO - solve_problem:98 - Generated 0 reasoning paths
+2025-06-25 22:26:55,095 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:26:55,095 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:27:03,378 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+2025-06-25 22:27:03,379 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+]
+2025-06-25 22:27:03,379 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 5
+}
+]
+2025-06-25 22:27:03,379 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+]
+2025-06-25 22:27:03,380 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-06-25 22:27:03,380 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 0 valid solution samples
+2025-06-25 22:27:03,381 - core.reasoning_engine - ERROR - solve_problem:141 - Error solving problem: max() iterable argument is empty
+2025-06-25 22:27:14,029 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+2025-06-25 22:27:14,030 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-06-25 22:27:14,030 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+2025-06-25 22:27:14,031 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2025-06-25 22:27:14,031 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 47
+}
+]
+2025-06-25 22:27:14,032 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 0 valid solution samples
+2025-06-25 22:27:14,032 - core.reasoning_engine - ERROR - solve_problem:141 - Error solving problem: max() iterable argument is empty
+2025-06-25 22:27:15,068 - core.reasoning_engine - INFO - __init__:52 - GeminiReasoningEngine initialized successfully
+2025-06-25 22:27:15,068 - core.reasoning_engine - INFO - solve_problem:70 - Solving logic problem: If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 ...
+2025-06-25 22:27:15,069 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:27:15,069 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: logic
+2025-06-25 22:27:21,097 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 44
+}
+]
+2025-06-25 22:27:21,097 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-06-25 22:27:21,098 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-06-25 22:27:21,098 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-06-25 22:27:21,098 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-06-25 22:27:21,099 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 0 valid reasoning paths
+2025-06-25 22:27:21,099 - core.reasoning_engine - INFO - solve_problem:98 - Generated 0 reasoning paths
+2025-06-25 22:27:21,099 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:27:21,099 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:27:39,934 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-06-25 22:27:39,935 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-06-25 22:27:39,936 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2025-06-25 22:27:39,936 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-06-25 22:27:39,937 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 21
+}
+]
+2025-06-25 22:27:39,937 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 0 valid solution samples
+2025-06-25 22:27:39,937 - core.reasoning_engine - ERROR - solve_problem:141 - Error solving problem: max() iterable argument is empty
+2025-06-25 22:27:40,949 - core.reasoning_engine - INFO - __init__:52 - GeminiReasoningEngine initialized successfully
+2025-06-25 22:27:40,949 - core.reasoning_engine - INFO - solve_problem:70 - Solving math problem: What's the square root of 144?...
+2025-06-25 22:27:40,950 - core.reasoning_engine - INFO - solve_problem:90 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 22:27:40,951 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: math
+2025-06-25 22:27:50,178 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-06-25 22:27:50,180 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-06-25 22:27:50,181 - strategies.tree_of_thought - WARNING - generate_reasoning_paths:51 - Error in path 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-06-25 22:27:50,181 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 2 valid reasoning paths
+2025-06-25 22:27:50,182 - core.reasoning_engine - INFO - solve_problem:98 - Generated 2 reasoning paths
+2025-06-25 22:27:50,182 - core.reasoning_engine - INFO - solve_problem:102 - Generating Self-Consistency solution samples...
+2025-06-25 22:27:50,182 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 22:28:06,485 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 0: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2025-06-25 22:28:06,486 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 1: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-06-25 22:28:06,486 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 2: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+2025-06-25 22:28:06,487 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 3: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2025-06-25 22:28:06,487 - strategies.self_consistency - WARNING - sample_multiple_solutions:55 - Error in sample 4: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-06-25 22:28:06,487 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 0 valid solution samples
+2025-06-25 22:28:06,488 - core.reasoning_engine - ERROR - solve_problem:141 - Error solving problem: max() iterable argument is empty
+2025-06-25 23:01:49,986 - optimization.optimization_manager - INFO - __init__:41 - OptimizationManager initialized
+2025-06-25 23:01:49,986 - core.reasoning_engine - INFO - __init__:56 - Auto-optimization enabled
+2025-06-25 23:01:49,986 - core.reasoning_engine - INFO - __init__:71 - GeminiReasoningEngine initialized successfully
+2025-06-25 23:01:49,987 - optimization.evaluator - WARNING - evaluate_result:61 - Performance issue detected: ['Empty or too short answer']
+2025-06-25 23:01:49,988 - optimization.evaluator - WARNING - evaluate_result:61 - Performance issue detected: ['Empty or too short answer']
+2025-06-25 23:01:49,988 - optimization.evaluator - WARNING - evaluate_result:61 - Performance issue detected: ['Empty or too short answer']
+2025-06-25 23:01:49,989 - optimization.evaluator - WARNING - evaluate_result:61 - Performance issue detected: ['Low confidence: 0.10', 'Empty or too short answer']
+2025-06-25 23:01:49,990 - optimization.evaluator - WARNING - evaluate_result:61 - Performance issue detected: ['Low confidence: 0.30']
+2025-06-25 23:12:59,719 - optimization.optimization_manager - INFO - __init__:41 - OptimizationManager initialized
+2025-06-25 23:12:59,720 - core.reasoning_engine - INFO - __init__:56 - Auto-optimization enabled
+2025-06-25 23:12:59,720 - core.reasoning_engine - INFO - __init__:71 - GeminiReasoningEngine initialized successfully
+2025-06-25 23:12:59,721 - core.reasoning_engine - INFO - solve_problem:90 - Solving math problem: What is 5 + 3?...
+2025-06-25 23:12:59,721 - core.reasoning_engine - INFO - solve_problem:111 - Generating Tree-of-Thought reasoning paths...
+2025-06-25 23:12:59,722 - strategies.tree_of_thought - INFO - generate_reasoning_paths:27 - Generating 5 reasoning paths for problem type: math
+2025-06-25 23:13:16,586 - strategies.tree_of_thought - INFO - generate_reasoning_paths:59 - Generated 5 valid reasoning paths
+2025-06-25 23:13:16,588 - core.reasoning_engine - INFO - solve_problem:120 - Generated 5 reasoning paths
+2025-06-25 23:13:16,589 - core.reasoning_engine - INFO - solve_problem:125 - Generating Self-Consistency solution samples...
+2025-06-25 23:13:16,590 - strategies.self_consistency - INFO - sample_multiple_solutions:31 - Generating 5 solution samples for consistency check
+2025-06-25 23:13:43,399 - strategies.self_consistency - INFO - sample_multiple_solutions:63 - Generated 5 valid solution samples
+2025-06-25 23:13:43,400 - core.reasoning_engine - INFO - solve_problem:140 - Generated 5 consistency samples
+2025-06-25 23:13:43,417 - core.reasoning_engine - INFO - solve_problem:161 - Problem solved in 43.68s with confidence 0.886

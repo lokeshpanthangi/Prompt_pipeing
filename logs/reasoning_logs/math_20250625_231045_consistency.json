@@ -1,0 +1,137 @@
+{
+  "problem": "995 + 100",
+  "timestamp": "2025-06-25T23:10:45.739554",
+  "solutions": [
+    {
+      "sample_id": 0,
+      "prompt": "\n            Solve this mathematical problem step by step:\n            \n            Problem: 995 + 100\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 995 + 100\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: Two numbers, 995 and 100.\nTo find: The sum of 995 and 100.\n\n**3. Show all calculations clearly:**\n\nWe can solve this using column addition:\n\n```\n  995\n+ 100\n-----\n 1095\n```\n\nAlternatively, we can think of it as adding 100 to 995.  Adding 100 is the same as adding 1 to the hundreds place.  Therefore:\n\n995 + 100 = 1095\n\n**4. State your final answer clearly:**\n\nThe sum of 995 and 100 is $\\boxed{1095}$.\n",
+      "timestamp": "2025-06-25T23:10:29.896520",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 1,
+      "prompt": "Think step by step: \n            Solve this mathematical problem step by step:\n            \n            Problem: 995 + 100\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 995 + 100\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: Two numbers, 995 and 100.\nTo find: The sum of 995 and 100.\n\n**3. Show all calculations clearly:**\n\nWe can solve this using column addition:\n\n```\n  995\n+ 100\n-----\n 1095\n```\n\nAlternatively, we can think of it as adding 100 to 995.  Adding 100 means increasing the hundreds digit by 1.\n\n995 + 100 = 1095\n\n\n**4. State your final answer clearly:**\n\nThe sum of 995 and 100 is $\\boxed{1095}$\n",
+      "timestamp": "2025-06-25T23:10:33.866775",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 2,
+      "prompt": "Solve this carefully: \n            Solve this mathematical problem step by step:\n            \n            Problem: 995 + 100\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 995 + 100\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 995 and 100.\nTo find: The sum of 995 and 100.\n\n**3. Show all calculations clearly:**\n\nWe can solve this using column addition:\n\n```\n   995\n+  100\n------\n  1095\n```\n\nAlternatively, we can think of it as adding 100 to 995.  Adding 100 means increasing the hundreds place by 1.  Therefore:\n\n995 + 100 = 1095\n\n\n**4. State your final answer clearly:**\n\nThe sum of 995 and 100 is $\\boxed{1095}$\n",
+      "timestamp": "2025-06-25T23:10:37.862256",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 3,
+      "prompt": "Let's work through this: \n            Solve this mathematical problem step by step:\n            \n            Problem: 995 + 100\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 995 + 100\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 995 and 100.\nTo find: The sum of 995 and 100.\n\n**3. Show all calculations clearly:**\n\nWe can solve this using column addition:\n\n```\n   995\n+  100\n------\n  1095\n```\n\nAlternatively, we can think of it as adding 100 to 995.  Adding 100 is the same as adding 1 to the hundreds place.  Therefore, 995 + 100 = 1095.\n\n**4. State your final answer clearly:**\n\nThe sum of 995 and 100 is $\\boxed{1095}$.\n",
+      "timestamp": "2025-06-25T23:10:41.959547",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 4,
+      "prompt": "Analyze this problem: \n            Solve this mathematical problem step by step:\n            \n            Problem: 995 + 100\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 995 + 100.\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: Two numbers, 995 and 100.\nTo find: The sum of 995 and 100.\n\n**3. Show all calculations clearly:**\n\nWe can solve this using standard addition:\n\n   995\n+  100\n-------\n  1095\n\n\nAlternatively, we can use mental math:  Adding 100 to a number simply increases the hundreds place by one.  995 + 100 = 1095\n\n**4. State your final answer clearly:**\n\nThe sum of 995 and 100 is $\\boxed{1095}$.\n",
+      "timestamp": "2025-06-25T23:10:45.707766",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    }
+  ],
+  "consensus": {
+    "consensus_answer": "",
+    "confidence": 0.0,
+    "agreement_ratio": 0.0
+  },
+  "analysis": {
+    "total_samples": 5,
+    "unique_answers": 0,
+    "consensus_strength": 0.0,
+    "average_quality": 0.6000000000000001,
+    "quality_variance": 0.0,
+    "confidence_distribution": {
+      "avg_certainty_words": 1.0,
+      "avg_uncertainty_words": 0.0,
+      "avg_hedge_words": 0.0,
+      "avg_verification_statements": 0.0
+    },
+    "answer_clusters": {
+      "clusters": {
+        "": 5
+      },
+      "largest_cluster_size": 5,
+      "cluster_count": 1
+    }
+  },
+  "best_answer": {
+    "selected_answer": "clearly:**",
+    "selection_method": "highest_quality",
+    "confidence": 0.6000000000000001,
+    "consensus_data": {
+      "consensus_answer": "",
+      "confidence": 0.0,
+      "agreement_ratio": 0.0
+    },
+    "best_solution": {
+      "sample_id": 0,
+      "prompt": "\n            Solve this mathematical problem step by step:\n            \n            Problem: 995 + 100\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 995 + 100\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: Two numbers, 995 and 100.\nTo find: The sum of 995 and 100.\n\n**3. Show all calculations clearly:**\n\nWe can solve this using column addition:\n\n```\n  995\n+ 100\n-----\n 1095\n```\n\nAlternatively, we can think of it as adding 100 to 995.  Adding 100 is the same as adding 1 to the hundreds place.  Therefore:\n\n995 + 100 = 1095\n\n**4. State your final answer clearly:**\n\nThe sum of 995 and 100 is $\\boxed{1095}$.\n",
+      "timestamp": "2025-06-25T23:10:29.896520",
+      "final_answer": "clearly:**",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    }
+  },
+  "summary": {
+    "total_samples": 5,
+    "consensus_confidence": 0.0,
+    "selected_answer": "clearly:**",
+    "selection_method": "highest_quality"
+  }
+}

@@ -1,0 +1,80 @@
+math_reasoning:
+  base_template: |
+    You are solving a mathematical problem step by step.
+    
+    Problem: {problem}
+    
+    Instructions:
+    1. Read the problem carefully and identify what information is given
+    2. Determine what you need to find
+    3. Plan your approach by breaking down the problem into steps
+    4. Execute each step with clear calculations
+    5. Verify your answer makes sense
+    
+    Show your complete reasoning:
+
+  variation_templates:
+    analytical: |
+      Solve this mathematical problem using analytical reasoning:
+      
+      Problem: {problem}
+      
+      Approach:
+      1. Identify all given information and what needs to be found
+      2. Determine the mathematical concepts and formulas needed
+      3. Set up equations or relationships
+      4. Solve step by step with clear calculations
+      5. Verify your answer makes sense
+      
+      Show all work and reasoning:
+
+    systematic: |
+      Solve this math problem using a systematic, methodical approach:
+      
+      Problem: {problem}
+      
+      Method:
+      1. Define the problem clearly
+      2. List all given values and what to find
+      3. Choose the appropriate mathematical method
+      4. Execute the solution systematically
+      5. Double-check each calculation step
+      
+      Be thorough and methodical:
+
+    verification_focused: |
+      Solve this mathematical problem with extra focus on verification:
+      
+      Problem: {problem}
+      
+      Verification approach:
+      1. Solve the problem step by step
+      2. Check each calculation for errors
+      3. Verify the final answer using alternative methods if possible
+      4. Test if the answer is reasonable and makes sense
+      5. Ensure units and formatting are correct
+      
+      Show solution with thorough verification:
+
+  consistency_prompts:
+    - "Solve this math problem step-by-step: {problem}"
+    - "Work through this mathematical question carefully: {problem}"
+    - "Calculate the answer to this problem, showing all steps: {problem}"
+    - "Find the solution to this math problem with clear reasoning: {problem}"
+    - "Solve this step-by-step, explaining your approach: {problem}"
+
+prompt_metadata:
+  category: "mathematics"
+  difficulty_adaptations:
+    easy:
+      additional_instruction: "This is a straightforward problem. Focus on clear, simple steps."
+    medium:
+      additional_instruction: "This problem may require multiple steps. Break it down carefully."
+    hard:
+      additional_instruction: "This is a complex problem. Consider multiple approaches and verify thoroughly."
+  
+  common_math_reminders:
+    - "Remember to check your arithmetic carefully"
+    - "Ensure your final answer has appropriate units if applicable"
+    - "Consider if your answer makes sense in the context of the problem"
+    - "Show all intermediate steps for full credit" 

@@ -1,0 +1,33 @@
+{
+  "description": "Code debugging and analysis problems for testing the AI system",
+  "category": "code",
+  "problems": [
+    {
+      "id": "code_001",
+      "problem": "def calculate_average(numbers):\n    total = 0\n    for i in range(len(numbers)):\n        total += numbers[i]\n    return total / len(numbers)\n\nprint(calculate_average([]))\n\nWhat will happen when this code runs?",
+      "difficulty": "easy",
+      "expected_answer": "ZeroDivisionError",
+      "solution_steps": [
+        "The function calculates average by dividing total by len(numbers)",
+        "When an empty list [] is passed, len(numbers) equals 0",
+        "Division by zero occurs: total / 0",
+        "This raises a ZeroDivisionError",
+        "Fix: Add check for empty list before division"
+      ],
+      "tags": ["python", "error_handling", "division_by_zero", "edge_cases"]
+    },
+    {
+      "id": "code_002",
+      "problem": "def fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n-1) + fibonacci(n-2)\n\nThis code works but is inefficient. What's the problem?",
+      "difficulty": "medium",
+      "expected_answer": "exponential_time_complexity",
+      "solution_steps": [
+        "The recursive function recalculates the same values multiple times",
+        "Time complexity is O(2^n) - exponential",
+        "Solutions: Use memoization, dynamic programming, or iterative approach",
+        "Optimized version would be O(n) time complexity"
+      ],
+      "tags": ["python", "recursion", "optimization", "time_complexity"]
+    }
+  ]
+}

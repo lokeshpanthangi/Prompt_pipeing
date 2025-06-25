@@ -1,0 +1,135 @@
+{
+  "problem": "What is 5 + 3?",
+  "timestamp": "2025-06-25T23:13:43.414633",
+  "solutions": [
+    {
+      "sample_id": 0,
+      "prompt": "\n            Solve this mathematical problem step by step:\n            \n            Problem: What is 5 + 3?\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem asks us to find the sum of 5 and 3.\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 5 and 3.\nTo find: The sum of 5 and 3.\n\n**3. Show all calculations clearly:**\n\n5 + 3 = 8\n\n**4. State your final answer clearly:**\n\nThe sum of 5 and 3 is 8.\n",
+      "timestamp": "2025-06-25T23:13:17.881213",
+      "final_answer": "clearly:",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 1,
+      "prompt": "Think step by step: \n            Solve this mathematical problem step by step:\n            \n            Problem: What is 5 + 3?\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "Solution:\n\n1. **Read the problem carefully:** The problem asks for the sum of 5 and 3.\n\n2. **Identify what information is given and what needs to be found:**  We are given two numbers, 5 and 3. We need to find their sum.\n\n3. **Show all calculations clearly:** 5 + 3 = 8\n\n4. **State your final answer clearly:** The sum of 5 and 3 is 8.\n",
+      "timestamp": "2025-06-25T23:13:21.764936",
+      "final_answer": "clearly:** The sum of 5 and 3 is 8.",
+      "normalized_answer": "5 3 8",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 2,
+      "prompt": "Solve this carefully: \n            Solve this mathematical problem step by step:\n            \n            Problem: What is 5 + 3?\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem asks for the sum of 5 and 3.\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 5 and 3.\nTo find: The sum of 5 and 3.\n\n**3. Show all calculations clearly:**\n\n5 + 3 = 8\n\n**4. State your final answer clearly:**\n\nThe sum of 5 and 3 is 8.\n",
+      "timestamp": "2025-06-25T23:13:25.987852",
+      "final_answer": "clearly:",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 3,
+      "prompt": "Let's work through this: \n            Solve this mathematical problem step by step:\n            \n            Problem: What is 5 + 3?\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem asks for the sum of 5 and 3.\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 5 and 3.\nTo find: The sum of 5 and 3.\n\n**3. Show all calculations clearly:**\n\n5 + 3 = 8\n\n**4. State your final answer clearly:**\n\nThe sum of 5 and 3 is 8.\n",
+      "timestamp": "2025-06-25T23:13:29.877654",
+      "final_answer": "clearly:",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 4,
+      "prompt": "Analyze this problem: \n            Solve this mathematical problem step by step:\n            \n            Problem: What is 5 + 3?\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem asks for the sum of 5 and 3.\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 5 and 3.\nTo find: The sum of 5 and 3.\n\n**3. Show all calculations clearly:**\n\n5 + 3 = 8\n\n**4. State your final answer clearly:**\n\nThe sum of 5 and 3 is 8.\n",
+      "timestamp": "2025-06-25T23:13:43.396293",
+      "final_answer": "clearly:",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    }
+  ],
+  "consensus": {
+    "consensus_answer": "5 3 8",
+    "confidence": 0.88,
+    "agreement_ratio": 1.0,
+    "total_solutions": 5,
+    "supporting_solutions": 1,
+    "answer_distribution": {
+      "5 3 8": 1
+    },
+    "quality_weighted_confidence": 0.6000000000000001
+  },
+  "analysis": {
+    "total_samples": 5,
+    "unique_answers": 1,
+    "consensus_strength": 1.0,
+    "average_quality": 0.6000000000000001,
+    "quality_variance": 0.0,
+    "confidence_distribution": {
+      "avg_certainty_words": 1.0,
+      "avg_uncertainty_words": 0.0,
+      "avg_hedge_words": 0.0,
+      "avg_verification_statements": 0.0
+    },
+    "answer_clusters": {
+      "clusters": {
+        "": 4,
+        "5 3 8": 1
+      },
+      "largest_cluster_size": 4,
+      "cluster_count": 2
+    }
+  },
+  "best_answer": {
+    "selected_answer": "5 3 8",
+    "selection_method": "consensus",
+    "confidence": 0.88,
+    "consensus_data": {
+      "consensus_answer": "5 3 8",
+      "confidence": 0.88,
+      "agreement_ratio": 1.0,
+      "total_solutions": 5,
+      "supporting_solutions": 1,
+      "answer_distribution": {
+        "5 3 8": 1
+      },
+      "quality_weighted_confidence": 0.6000000000000001
+    }
+  },
+  "summary": {
+    "total_samples": 5,
+    "consensus_confidence": 0.88,
+    "selected_answer": "5 3 8",
+    "selection_method": "consensus"
+  }
+}

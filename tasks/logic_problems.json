@@ -1,0 +1,121 @@
+{
+  "description": "Logical reasoning problems for testing the AI system",
+  "category": "logic",
+  "problems": [
+    {
+      "id": "logic_001",
+      "problem": "All cats are animals. Some animals are pets. Can we conclude that some cats are pets?",
+      "difficulty": "medium",
+      "expected_answer": "false",
+      "solution_steps": [
+        "Given: All cats are animals (Cats ⊆ Animals)",
+        "Given: Some animals are pets (Animals ∩ Pets ≠ ∅)",
+        "Question: Are some cats pets? (Cats ∩ Pets ≠ ∅?)",
+        "The premises don't guarantee that any cats are among the animals that are pets",
+        "Conclusion: Cannot be determined from given information"
+      ],
+      "tags": ["syllogism", "set_theory", "logical_fallacy"]
+    },
+    {
+      "id": "logic_002", 
+      "problem": "If it rains, then the ground gets wet. The ground is wet. Therefore, it rained. Is this reasoning valid?",
+      "difficulty": "medium",
+      "expected_answer": "false",
+      "solution_steps": [
+        "Premise: If it rains → ground gets wet",
+        "Observation: Ground is wet",
+        "Conclusion: It rained",
+        "This is the logical fallacy of 'affirming the consequent'",
+        "The ground could be wet for other reasons (sprinkler, hose, etc.)",
+        "The reasoning is INVALID"
+      ],
+      "tags": ["conditional_logic", "logical_fallacy", "affirming_consequent"]
+    },
+    {
+      "id": "logic_003",
+      "problem": "In a group of 100 people, 60 like chocolate, 50 like vanilla, and 30 like both. How many people like neither chocolate nor vanilla?",
+      "difficulty": "medium", 
+      "expected_answer": "20",
+      "solution_steps": [
+        "People who like only chocolate: 60 - 30 = 30",
+        "People who like only vanilla: 50 - 30 = 20",
+        "People who like both: 30",
+        "People who like at least one: 30 + 20 + 30 = 80",
+        "People who like neither: 100 - 80 = 20"
+      ],
+      "tags": ["set_theory", "venn_diagrams", "inclusion_exclusion"]
+    },
+    {
+      "id": "logic_004",
+      "problem": "Every rose is a flower. Some flowers are red. Therefore, some roses are red. Is this conclusion valid?",
+      "difficulty": "medium",
+      "expected_answer": "false", 
+      "solution_steps": [
+        "Premise 1: Every rose is a flower (Roses ⊆ Flowers)",
+        "Premise 2: Some flowers are red (Flowers ∩ Red ≠ ∅)",
+        "Conclusion: Some roses are red (Roses ∩ Red ≠ ∅)",
+        "The red flowers could be entirely non-roses (tulips, carnations, etc.)",
+        "The conclusion doesn't necessarily follow from the premises",
+        "The reasoning is INVALID"
+      ],
+      "tags": ["syllogism", "set_theory", "logical_validity"]
+    },
+    {
+      "id": "logic_005",
+      "problem": "A sequence follows the pattern: 2, 6, 18, 54, ... What is the next number?",
+      "difficulty": "easy",
+      "expected_answer": "162",
+      "solution_steps": [
+        "Analyze the pattern: 2, 6, 18, 54",
+        "6 ÷ 2 = 3, 18 ÷ 6 = 3, 54 ÷ 18 = 3",
+        "Each term is multiplied by 3 to get the next term",
+        "Next term: 54 × 3 = 162"
+      ],
+      "tags": ["pattern_recognition", "sequences", "multiplication"]
+    },
+    {
+      "id": "logic_006",
+      "problem": "Tom says 'I always lie.' Is this statement true or false?",
+      "difficulty": "hard",
+      "expected_answer": "paradox",
+      "solution_steps": [
+        "If Tom always lies, then his statement 'I always lie' must be false",
+        "But if the statement is false, then Tom doesn't always lie",
+        "This means he sometimes tells the truth, making this statement potentially true",
+        "But if it's true, then he does always lie, contradicting our reasoning",
+        "This is a classic liar's paradox with no consistent solution"
+      ],
+      "tags": ["paradox", "self_reference", "logical_contradiction"]
+    },
+    {
+      "id": "logic_007",
+      "problem": "If all birds can fly, and penguins are birds, then penguins can fly. What's wrong with this reasoning?",
+      "difficulty": "easy",
+      "expected_answer": "false_premise",
+      "solution_steps": [
+        "The logical structure is valid: All A are B, C is A, therefore C is B",
+        "However, the first premise 'all birds can fly' is factually incorrect",
+        "Penguins, ostriches, and other birds cannot fly",
+        "The reasoning is logically valid but based on a false premise",
+        "Therefore, the conclusion is false"
+      ],
+      "tags": ["false_premise", "logical_validity", "factual_accuracy"]
+    },
+    {
+      "id": "logic_008",
+      "problem": "Three friends - Alice, Bob, and Carol - are wearing different colored hats: red, blue, and green. Alice is not wearing red. Bob is not wearing blue. Carol is not wearing green. What color hat is each person wearing?",
+      "difficulty": "medium",
+      "expected_answer": "Alice: blue, Bob: green, Carol: red",
+      "solution_steps": [
+        "Alice is not wearing red → Alice wears blue or green",
+        "Bob is not wearing blue → Bob wears red or green", 
+        "Carol is not wearing green → Carol wears red or blue",
+        "If Alice wears green, then Bob must wear red (only option left for Bob)",
+        "But then Carol must wear blue, which works",
+        "Alternative: If Alice wears blue, Bob wears green, Carol wears red",
+        "Both solutions work, but typically the second is standard: Alice=blue, Bob=green, Carol=red"
+      ],
+      "tags": ["deductive_reasoning", "constraint_satisfaction", "logic_puzzle"]
+    }
+  ]
+} 

@@ -1,0 +1,137 @@
+{
+  "problem": "2+2",
+  "timestamp": "2025-06-25T23:12:05.425137",
+  "solutions": [
+    {
+      "sample_id": 0,
+      "prompt": "\n            Solve this mathematical problem step by step:\n            \n            Problem: 2+2\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 2 + 2.\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 2 and 2.\nTo find: The sum of 2 and 2.\n\n**3. Show all calculations clearly:**\n\n2 + 2 = 4\n\n**4. State your final answer clearly:**\n\nThe sum of 2 and 2 is 4.\n",
+      "timestamp": "2025-06-25T23:11:49.427207",
+      "final_answer": "clearly:",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 1,
+      "prompt": "Think step by step: \n            Solve this mathematical problem step by step:\n            \n            Problem: 2+2\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 2 + 2.\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 2 and 2.\nTo find: The sum of 2 and 2.\n\n**3. Show all calculations clearly:**\n\n2 + 2 = 4\n\n**4. State your final answer clearly:**\n\nThe sum of 2 and 2 is 4.\n",
+      "timestamp": "2025-06-25T23:11:53.466841",
+      "final_answer": "clearly:",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 2,
+      "prompt": "Solve this carefully: \n            Solve this mathematical problem step by step:\n            \n            Problem: 2+2\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 2 + 2\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 2 and 2.\nTo find: The sum of 2 and 2.\n\n**3. Show all calculations clearly:**\n\n2 + 2 = 4\n\n**4. State your final answer clearly:**\n\nThe sum of 2 and 2 is 4.\n",
+      "timestamp": "2025-06-25T23:11:57.416708",
+      "final_answer": "clearly:",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 3,
+      "prompt": "Let's work through this: \n            Solve this mathematical problem step by step:\n            \n            Problem: 2+2\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 2 + 2.\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 2 and 2.\nTo find: The sum of 2 and 2.\n\n**3. Show all calculations clearly:**\n\n2 + 2 = 4\n\n**4. State your final answer clearly:**\n\nThe sum of 2 and 2 is 4.\n",
+      "timestamp": "2025-06-25T23:12:01.466524",
+      "final_answer": "clearly:",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    },
+    {
+      "sample_id": 4,
+      "prompt": "Analyze this problem: \n            Solve this mathematical problem step by step:\n            \n            Problem: 2+2\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 2 + 2.\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 2 and 2.\nTo find: The sum of 2 and 2.\n\n**3. Show all calculations clearly:**\n\n2 + 2 = 4\n\n**4. State your final answer clearly:**\n\nThe sum of 2 and 2 is 4.\n",
+      "timestamp": "2025-06-25T23:12:05.409355",
+      "final_answer": "clearly:",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    }
+  ],
+  "consensus": {
+    "consensus_answer": "",
+    "confidence": 0.0,
+    "agreement_ratio": 0.0
+  },
+  "analysis": {
+    "total_samples": 5,
+    "unique_answers": 0,
+    "consensus_strength": 0.0,
+    "average_quality": 0.6000000000000001,
+    "quality_variance": 0.0,
+    "confidence_distribution": {
+      "avg_certainty_words": 1.0,
+      "avg_uncertainty_words": 0.0,
+      "avg_hedge_words": 0.0,
+      "avg_verification_statements": 0.0
+    },
+    "answer_clusters": {
+      "clusters": {
+        "": 5
+      },
+      "largest_cluster_size": 5,
+      "cluster_count": 1
+    }
+  },
+  "best_answer": {
+    "selected_answer": "clearly:",
+    "selection_method": "highest_quality",
+    "confidence": 0.6000000000000001,
+    "consensus_data": {
+      "consensus_answer": "",
+      "confidence": 0.0,
+      "agreement_ratio": 0.0
+    },
+    "best_solution": {
+      "sample_id": 0,
+      "prompt": "\n            Solve this mathematical problem step by step:\n            \n            Problem: 2+2\n            \n            Instructions:\n            1. Read the problem carefully\n            2. Identify what information is given and what needs to be found\n            3. Show all calculations clearly\n            4. State your final answer clearly\n            \n            Solution:\n            ",
+      "response": "**1. Read the problem carefully:**\n\nThe problem is a simple addition problem: 2 + 2.\n\n**2. Identify what information is given and what needs to be found:**\n\nGiven: The numbers 2 and 2.\nTo find: The sum of 2 and 2.\n\n**3. Show all calculations clearly:**\n\n2 + 2 = 4\n\n**4. State your final answer clearly:**\n\nThe sum of 2 and 2 is 4.\n",
+      "timestamp": "2025-06-25T23:11:49.427207",
+      "final_answer": "clearly:",
+      "normalized_answer": "",
+      "reasoning_quality": 0.6000000000000001,
+      "confidence_indicators": {
+        "certainty_words": 1,
+        "uncertainty_words": 0,
+        "hedge_words": 0,
+        "verification_statements": 0
+      }
+    }
+  },
+  "summary": {
+    "total_samples": 5,
+    "consensus_confidence": 0.0,
+    "selected_answer": "clearly:",
+    "selection_method": "highest_quality"
+  }
+}
